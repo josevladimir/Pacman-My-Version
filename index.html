@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Juego 1</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/escene.js"></script>
+    <script src="js/personaje.js"></script>
+    <script src="js/initialize.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+
+    <div id="display">
+        <div id="end-game">
+            <div>
+                <span id="end-label">FIN DEL JUEGO!</span>
+            </div>
+        </div>
+    </div>
+    <div id="container">
+        <canvas id="canvas" height="500px" width="375px">
+            Tu navegador no soporta canvas! =(
+        </canvas>
+        <div id="game-info">
+            <h3><i class="fa fa-list"></i> PUNTAJE <span id="score-box">0</span></h3>
+            <h3><i class="fas fa-clock"></i> TIEMPO <span id="time-box">00:00</span></h3>
+            <h3><i class="fas fa-heart"></i> VIDAS <span id="life-box">3</span></h3>
+            <h3 id="salir-btn">SALIR</h3>
+        </div>
+    </div>
+    
+    <audio id="player" src="music.mp3" autoplay ></audio>
+
+</body>
+</html>

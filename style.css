@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body,
+html,
+#container{
+    height: 100%;
+    width: 100%;
+}
+#canvas{
+    border: 1px solid #000;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,.25);
+}
+#container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+body,
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background: url('Assets/motivo.jpg');
+    background-size: cover;
+}
+#game-info{
+    background: rgba(0,0,0,.5);
+    border: 1px solid #000;
+    height: 500px;
+    width: 200px;
+}
+#game-info h3{
+    background: rgb(223, 160, 24);
+    border: 5px solid rgb(223, 130, 24);
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin: 20px auto;
+    padding: 5px;
+    text-align: center;
+    width: 90%;
+}
+#game-info h3 span{
+    background: #fff;
+    border-radius: 10px; 
+    box-sizing: border-box;
+    color: rgb(223, 130, 24);
+    display: block;
+    margin: 5px auto;
+    padding: 5px;
+    width: 100px;
+}
+#salir-btn{
+    cursor: pointer;
+    position: relative;
+    bottom: -70px;
+}
+#display{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+}
+#end-game{
+    width: 577px;
+}
+#end-game div{
+    background: rgba(0,0,0,.50);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+}
+#end-label{
+    background: rgb(223, 160, 24);
+    border: 5px solid rgb(223, 130, 24);
+    border-radius: 10px;
+    color: #fff;
+    display: block;
+    font-family: sans-serif;
+    padding: 25px;
+    text-align: center;
+}
